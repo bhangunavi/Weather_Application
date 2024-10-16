@@ -46,37 +46,36 @@ A simple and interactive weather application built with React and Vite. This app
 Install dependencies:
 
 bash
-Copy code
-npm install
+-Copy code
+-npm install
+
 Set Up Environment Variables:
+-Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
+-plaintext
+-Copy code
+-VITE_API_KEY=your_openweathermap_api_key
+-Running the App
 
-Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
-
-plaintext
-Copy code
-VITE_API_KEY=your_openweathermap_api_key
-Running the App
 Start the development server:
-
-bash
-Copy code
-npm run dev
-Open your browser and navigate to http://localhost:5173 to view the app.
+-bash
+-Copy code
+-npm run dev
+-Open your browser and navigate to http://localhost:5173 to view the app.
 
 Usage
 Enter a city name in the search input field and click the "Get Weather" button.
 The app will display the current weather conditions, including temperature and description.
 Build for Production
-To create an optimized production build, run:
 
-bash
-Copy code
-npm run build
-This will generate a dist directory containing the production-ready files.
+To create an optimized production build, run:
+-bash
+-Copy code
+-npm run build
+-This will generate a dist directory containing the production-ready files.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
-OpenWeatherMap API for weather data.
-Vite for an incredible development experience.
+-OpenWeatherMap API for weather data.
+-Vite for an incredible development experience.
